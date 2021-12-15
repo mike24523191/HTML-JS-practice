@@ -1,0 +1,140 @@
+#container{
+    margin-left:30%;
+}
+.left{
+    width: 200px;
+    height: 500px;
+    margin-left: 0px;
+}
+.trink{
+    margin-left: 20px;
+}
+.right{
+    width: 70%;
+    height: 500px;
+    margin: -521px 0 0 200px;
+}
+.sell{
+    width:150px;
+    height: 200px;
+    border: 1px dashed black;
+}
+.img{
+    padding-left: 13px;
+    padding-top: 5px;
+}
+.font-size1{
+    font-size: 15px ;
+}
+.font-size2{
+    font-size: 12px ;
+}
+.font-size3{
+    color: blueviolet;
+    font-size: 12px;
+}
+a{
+    color: black;
+    text-decoration: inherit;
+}
+a:hover{
+    color: #CCC;
+    text-decoration:underline;
+}
+#img1{
+    opacity: 1;
+    padding-left: 12px;
+}
+#img1:hover{
+    opacity: 0.6;
+    cursor:zoom-in;
+    transform: rotate(360deg);
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+}
+#img2{
+    opacity: 1;
+    padding-left: 12px;
+}
+#img2:hover{
+    opacity: 1;
+    cursor:zoom-in;
+    transform: scale(2);
+    transition-duration: 2s;
+}
+#img3{
+    opacity: 1;
+    padding-left: 12px;
+}
+#img3:hover{
+    opacity: 0.6;
+    cursor:zoom-out;
+    transform:scale(0.5);
+    transition-duration: 2s;
+}
+#img4{
+    opacity: 1;
+    padding-left: 12px;
+}
+#img4:hover{
+    opacity: 0.6;
+    cursor:zoom-in;
+    transform:translate(-20px,20px);
+    transition-duration: 1.5s;
+}
+#img5{
+    opacity: 1;
+    padding-left: 12px;
+}
+#img5:hover{
+    opacity: 0.6;
+    cursor:zoom-in;
+    transform:skew(45deg,30deg);
+    transition-duration: 2s;
+}
+#img6{
+    opacity: 1;
+    padding-left: 12px;
+}
+#img6:hover{
+    opacity: 0.6;
+    cursor:zoom-in;
+    transform:skewX(25deg);
+    transition-duration: 0.5s;
+}
+#img7{
+    opacity: 1;
+    padding-left: 12px;
+}
+#img7:hover{
+    opacity: 0.6;
+    cursor:zoom-in;
+    transform:skewY(60deg);
+    transition-duration: 0.5s;
+}
+#img8{
+    opacity: 1;
+    padding-left: 12px;
+}
+#img8:hover{
+    opacity: 0.6;
+    cursor:zoom-in;
+    animation-name: wid,hei;
+    animation-duration: 1.5s,3s;
+}
+@keyframes wid{
+    0%{
+        width: 120px;
+    }
+    100%{
+        width:150px ;
+    }
+}
+@keyframes hei{
+    0%{
+        height: 120px;
+    }
+    100%{
+        height: 300px;
+    }
+}

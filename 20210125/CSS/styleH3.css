@@ -1,0 +1,46 @@
+/* CSS Document */
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+#wrapper{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 270px;
+    background-color: #EEE;
+}
+header{
+    padding: 10px 15px;
+    background-color: #DDD;
+}
+#content {
+    padding: 15px;
+}
+.form{
+    margin-bottom: 15px;
+}
+input.form-scan {
+    display: block;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    color: #555555;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+.btn{
+    background-color:#E55;
+    height: 35px;
+    width: 325px;
+    margin: 0 auto;
+    border-radius: 4px;
+}

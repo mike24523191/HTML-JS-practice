@@ -1,0 +1,52 @@
+#container{
+    margin-left:30%;
+}
+.left{
+    width: 200px;
+    height: 500px;
+    margin-left: 0px;
+}
+.trink{
+    margin-left: 20px;
+}
+.right{
+    width: 70%;
+    height: 500px;
+    margin: -521px 0 0 200px;
+}
+.sell{
+    width:150px;
+    height: 200px;
+    border: 1px dashed black;
+}
+.img{
+    padding-left: 13px;
+    padding-top: 5px;
+}
+.font-size1{
+    font-size: 15px ;
+}
+.font-size2{
+    font-size: 12px ;
+}
+.font-size3{
+    color: blueviolet;
+    font-size: 12px;
+}
+a{
+    color: black;
+    text-decoration: inherit;
+}
+a:hover{
+    color: #CCC;
+    text-decoration:underline;
+}
+img{
+    opacity: 1;
+    filter: alpha(opacity=50);
+}
+img:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+    cursor: crosshair;
+}

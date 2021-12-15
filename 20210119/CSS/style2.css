@@ -1,0 +1,45 @@
+.h{
+    background-color:blue ;
+    height: 30px;
+    line-height: 30px;
+}
+.hd{
+    background-color: pink;
+    height:50px ;
+}
+.a{
+    background-color:slateblue;
+    height: 500px;
+    width: 25%;
+
+}
+.b{
+    background-color:tomato;
+    height: 500px;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: -500px;
+    overflow: auto;
+}
+.bm{
+    border: 3px black solid;
+    width: 81%;
+    background-color: red;
+    margin-top: 50px;
+    height: 150px;
+}
+.c{
+    background-color:aquamarine;
+    height: 500px;
+    width: 25%;
+    margin-left: 60%;
+    margin-top: -500px;
+
+}
+.d{
+    background-color:cornflowerblue;
+    height: 500px;
+    width: 20%;
+    margin-left: 80%;
+    margin-top: -500px;
+}

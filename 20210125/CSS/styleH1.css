@@ -1,0 +1,62 @@
+/* CSS Document */
+body{
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+}
+.wrapper{
+    width: 1024px;
+    margin: 0 auto;
+}
+/*header*/
+#logo{
+    height: 250px;
+}
+nav{
+    text-align: center;
+    background-color:brown;
+}
+ul{
+    display:inline-block;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+}
+li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: yellow;
+}
+/*content*/
+#content_in{
+    background-color:#D8D8D8;
+    text-align: center;
+    padding: 30px 50px;
+}
+#content h1{
+    color:brown;  
+}
+#content a{
+    text-decoration: none;
+    color: white;
+    background-color:brown;
+    padding: 15px 30px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+#content p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+/*footer*/
+footer{
+    background-color:sienna;
+    text-align: center;
+}
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    function input(){
+         var x = document.getElementById("T1").value;
+         x=x*1000;
+         if(x==0)
+            document.getElementById('result').value = 0;
+         else if(x<=1500)
+         document.getElementById('result').value = 70;
+         else
+         document.getElementById('result').value = 70+Math.ceil((x-1500)/500)*5;
+    }
+   
+
+</script>
+</head>
+<body>
+    請輸入里程(公里)[小數點可精確至公尺]:<input id=T1  placeholder="請輸入里程"><br>
+    車資： <output id = result></output>元<br>
+    <input type="button" value="輸入" id="A1" onclick="input()">
+</body>
+</html>
